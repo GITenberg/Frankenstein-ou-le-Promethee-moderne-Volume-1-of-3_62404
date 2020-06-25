@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+>
+  <pgterms:ebook rdf:about="ebooks/62404">
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/62404.rdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-20T14:00:13.247466</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/62404"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6466</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9975c68abc504d109563c565c271573f">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N1e0ffefd991d459387688613ba89e5ab">
+        <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Ndbd72dd9f9fa4e9392cad5593f96128c">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Horror tales</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:title>Frankenstein, ou le Prométhée moderne Volume 1 (of 3)</dcterms:title>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N037af55b867f4d78931ea1da34c50874">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">fr</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-06-20</dcterms:issued>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/61">
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1797</pgterms:birthdate>
+        <pgterms:webpage rdf:resource="https://en.wikipedia.org/wiki/Mary_Wollstonecraft_Shelley"/>
+        <pgterms:alias>Shelley, Mary Wollstonecraft Godwin</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1851</pgterms:deathdate>
+        <pgterms:name>Shelley, Mary Wollstonecraft</pgterms:name>
+        <pgterms:alias>Shelley, Mary W.</pgterms:alias>
+      </pgterms:agent>
+    </dcterms:creator>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Nd8476552f0574990b0b378ea9460cf86">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>FR Science fiction</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/62404/pg62404.cover.medium.jpg">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15374</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-20T14:00:13.205434</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/62404"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nea09d93b43d14f9db4100a19987ee35f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nb27a167efcc040f5a8c595fb3fbf35e2">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Frankenstein, Victor (Fictitious character) -- Fiction</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/62404/62404-h/62404-h.htm">
+        <dcterms:isFormatOf rdf:resource="ebooks/62404"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-20T12:52:32</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N62741176664e47a89320229b089a82ee">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">187493</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/62404.epub.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">237950</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0d798c22ff174524bd4535f5cc8d61ef">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-20T14:00:08.785195</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/62404"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/62404.kindle.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/62404"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">783131</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N867b7ebd50c14240b3f0ae016e1d2e69">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-20T14:00:12.952457</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nfd91090790a9483199047826377204e9">
+        <rdf:value>Scientists -- Fiction</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Nef0a2419a8d6400298131f2207eca046">
+        <rdf:value>FR Nouveautés</rdf:value>
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/62404/62404-0.txt">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N539cfd94d125432eab78f186ffa2cb90">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">178749</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/62404"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-20T12:52:30</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/62404.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">964132</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-20T14:00:10.761463</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/62404"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6e529ed1bbad466abb5ab7541ef1d225">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N9d41f51decd64af5b4ac2dcb04afcb4a">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>FR Littérature</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/62404/62404-0.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-20T12:52:32</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1f967f61b99144cca0ffc0127a23f64c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/62404"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5f2939cc0f8d4233af946280f7d6c3ab">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67319</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N2e7c2fa04b6a4bbcb641f673328facf1">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PR</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/62404/62404-h.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/62404"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">321617</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-20T12:52:32</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4db22f1831f24e15b2f87e58e4bb2e6f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N62111871f40143b6ae7d95d6e04c362c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N6c57e82bdcfc4d00960fdb98ed1ca9b9">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Gothic fiction</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <marcrel:trl>
+      <pgterms:agent rdf:about="2009/agents/51941">
+        <pgterms:name>Saladin, Jules</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1700</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1800</pgterms:deathdate>
+      </pgterms:agent>
+    </marcrel:trl>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N9b6407abdf4e4995928601420b7e784a">
+        <rdf:value>Monsters -- Fiction</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/62404/pg62404.cover.small.jpg">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2771</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/62404"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nda8b9cd5d5984c08b8d15bdf77fb6c89">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-20T14:00:13.078483</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Ne7dfdcb8c87a43a6a0d9683c456425c7">
+        <rdf:value>Frankenstein's monster (Fictitious character) -- Fiction</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N731d3c7afc07435d9d86fb1213e713e4">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Science fiction</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/62404.epub.images">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nda10c3d95e7e45269f03a46fac276f19">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/62404"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">325239</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-20T14:00:07.244216</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+  </cc:Work>
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Mary_Wollstonecraft_Shelley">
+    <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>
